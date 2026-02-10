@@ -10,7 +10,7 @@ const FamilySection: React.FC = () => {
     "Mr. Babu Ram Garg", 
     "Mr. Shrinivas Garg",
     "Mr. Dharampal Garg", 
-    "Mr. Brahma Nand Garg"
+    "Mr. Brahma Garg"
   ];
 
   const brotherCols = [
