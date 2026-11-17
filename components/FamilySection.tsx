@@ -2,32 +2,16 @@ import React from 'react';
 
 const FamilySection: React.FC = () => {
   const pillars = [
-    "Mrs. Sunita Garg W/o Late Mr. Rajendra Garg", 
-    "Mrs. Monika Garg W/o Mr. Mahesh Chandra Garg", 
-    "Mrs. Babita Garg W/o Mr. Sanjay Garg",  
-    "Mr. Kishan Garg", 
-    "Mr. Roshan Garg", 
-    "Mr. Babu Ram Garg", 
-    "Mr. Shrinivas Garg",
-    "Mr. Dharampal Garg", 
-    "Mr. Brahma Garg"
+    "Mr. Anoop Mishra & Mrs. Shikha Mishra",
+     "Mr. Anil Mishra & Mrs. Laxmi Mishra"
   ];
 
   const brotherCols = [
-    {
-      names: ["Mr. Siddharth Garg", "Mr. Devansh Garg", "Mr. Suvansh Garg"]
-    },
-    {
-      names: ["Mr. Manish Garg", "Mr. Tarun Garg", "Mr. Himanshu Garg", "Mr. Anil Garg", "Mr. Nikhil Garg", "Mr. Shubham Garg"]
-    },
-    {
-      names: ["Mr. Saurabh Garg", "Mr. Shilesh Garg", "Mr. Nilesh Garg", "Mr. Aman Garg"]
-    }
+    "Ragini & Shubham"
   ];
 
   const littleOnes = [
-    "Parv", "Varn", "Atharv", "Shaurya", "Aditri", 
-    "Jigishah", "Kesari", "Shree", "Hitishah", "Aviraj", "Anamya"
+    "Sadhvi & Vidhi"
   ];
 
   return (
@@ -54,7 +38,7 @@ const FamilySection: React.FC = () => {
         {/* Brothers Section - 3 Column Layout */}
         <div className="mb-32">
           <h2 className="font-luxury text-4xl md:text-5xl mb-20 shimmer uppercase tracking-widest px-4">
-            The Brothers
+            With Love from Didi & Jiju
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 max-w-5xl mx-auto">
             {brotherCols.map((col, idx) => (
@@ -72,7 +56,7 @@ const FamilySection: React.FC = () => {
         {/* The Little Ones Section */}
         <div className="max-w-5xl mx-auto">
           <h2 className="font-luxury text-4xl md:text-5xl mb-20 shimmer uppercase tracking-widest px-4">
-            The Little Ones
+            With Heartfelt Affection
           </h2>
           <div className="flex flex-wrap justify-center gap-x-4 md:gap-x-8 gap-y-4 md:gap-y-6">
             {littleOnes.map((name, i) => (

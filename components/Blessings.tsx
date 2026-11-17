@@ -12,10 +12,8 @@ const LotusIcon = () => (
 
 const Blessings: React.FC = () => {
   const elders = [
-    "Late Shri Ram Kumar Garg & Savitri Devi",
-    "Late Shri LalJi Mal Garg & Nihali Devi",
-    "Late Shri Chandrabhan Garg & Nari Devi",
-    "Late Shri Vishnu Garg S/o Ram Kumar Garg"
+     "Late Shri Surya Narayan Mishra & Late Smt. Girija Devi Mishra",
+     "Late Shri Pradeep Narayan Mishra & Late Smt. Urmila Devi Mishra"
   ];
 
   return (
