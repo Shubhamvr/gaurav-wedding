@@ -86,35 +86,35 @@ const Itinerary: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24">
           {/* Day 1 */}
           <div className="space-y-16">
-            <h3 className="font-luxury text-2xl text-center text-[#3A312A] tracking-[0.3em] uppercase opacity-40">24th February</h3>
-            <EventCard 
-              date="24 FEB 2026" 
+            <h3 className="font-luxury text-2xl text-center text-[#3A312A] tracking-[0.3em] uppercase opacity-40">10th December</h3>
+            {/* <EventCard 
+              date="10 DEC 2026" 
               title="Haldi Carnival" 
               time="12:00 PM" 
               description="A vibrant celebration of love, colors, and eternal traditions."
-            />
+            /> */}
             <EventCard 
-              date="24 FEB 2026" 
+              date="10 DEC 2026" 
               title="Ring Ceremony" 
               time="06:00 PM" 
-              description="Tika Ceremony followed by Cocktail & Royal Dinner."
+              description="Tilak Ceremony followed by Sangeet & Royal Dinner."
             />
           </div>
 
           {/* Day 2 */}
           <div className="space-y-16">
             <h3 className="font-luxury text-2xl text-center text-[#3A312A] tracking-[0.3em] uppercase opacity-40">25th February</h3>
-            <EventCard 
+            {/* <EventCard 
               date="25 FEB 2026" 
               title="Chak Bhat" 
               time="10:00 AM" 
               description="A sacred morning ritual honoring maternal heritage and family bonds."
-            />
+            /> */}
             <EventCard 
-              date="25 FEB 2026" 
+              date="11 DEC 2026" 
               title="The Wedding" 
-              time="01:00 PM Onwards" 
-              description="Baraat Arrival & Wedding followed by Grand Reception at 7 PM."
+              time="07:00 PM Onwards" 
+              description="Baraat Arrival & Wedding followed by Grand Reception at 9 PM."
             />
           </div>
         </div>
