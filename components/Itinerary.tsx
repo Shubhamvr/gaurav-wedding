@@ -9,7 +9,7 @@ interface EventCardProps {
   description?: string;
 }
 
-const EventCard: React.FC<EventCardProps> = ({ date, title, time, description , event-venue }) => {
+const EventCard: React.FC<EventCardProps> = ({ date, title, time, description }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
