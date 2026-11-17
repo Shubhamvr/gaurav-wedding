@@ -6,24 +6,35 @@ interface Props {
 }
 
 const Countdown: React.FC<Props> = ({ targetDate }) => {
-  const [timeLeft, setTimeLeft] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0
-  });
+  const calculateTime = () => {
+    const difference = new Date(targetDate).getTime() - Date.now();
+
+    if (!Number.isFinite(difference) || difference <= 0) {
+      return {
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0
+      };
+    }
+
+    return {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / (1000 * 60)) % 60),
+      seconds: Math.floor((difference / 1000) % 60)
+    };
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTime);
 
   useEffect(() => {
+    // Calculate immediately
+    setTimeLeft(calculateTime());
+
+    // Update every second
     const timer = setInterval(() => {
-      const difference = +new Date(targetDate) - +new Date();
-      if (difference > 0) {
-        setTimeLeft({
-          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-          minutes: Math.floor((difference / 1000 / 60) % 60),
-          seconds: Math.floor((difference / 1000) % 60)
-        });
-      }
+      setTimeLeft(calculateTime());
     }, 1000);
 
     return () => clearInterval(timer);
@@ -31,7 +42,10 @@ const Countdown: React.FC<Props> = ({ targetDate }) => {
 
   return (
     <div className="text-center">
-      <h4 className="font-luxury text-xl tracking-[0.5em] uppercase text-[#C5A46D] mb-12">Counting the Moments</h4>
+      <h4 className="font-luxury text-xl tracking-[0.5em] uppercase text-[#C5A46D] mb-12">
+        Counting the Moments
+      </h4>
+
       <div className="flex justify-center gap-10 md:gap-20">
         {[
           { label: 'Days', value: timeLeft.days },
@@ -43,6 +57,7 @@ const Countdown: React.FC<Props> = ({ targetDate }) => {
             <span className="font-luxury text-5xl md:text-6xl text-[#3A312A] group-hover:text-[#C5A46D] transition-colors duration-500">
               {String(item.value).padStart(2, '0')}
             </span>
+
             <span className="font-accent text-[10px] uppercase tracking-[0.3em] text-[#3A312A]/40 mt-3 font-bold">
               {item.label}
             </span>
