@@ -76,7 +76,7 @@ const Venue: React.FC = () => {
               className="relative z-10 aspect-[4/5] md:aspect-square overflow-hidden rounded-sm shadow-2xl"
             >
               <img 
-                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1200" 
+                src="https://cdn.phototourl.com/anon/2026-11-17-459451f6-55b0-47be-8187-9aee3eaf11d6.webp" 
                 alt="Luxury Entrance" 
                 className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-1000"
               />
