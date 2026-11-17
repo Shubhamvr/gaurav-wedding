@@ -7,7 +7,7 @@ import FamilySection from './components/FamilySection';
 import CoupleHero from './components/CoupleHero';
 import Itinerary from './components/Itinerary';
 import Venue from './components/Venue';
-import Legacy from './components/Legacy';
+// import Legacy from './components/Legacy';
 import Footer from './components/Footer';
 import AudioPlayer from './components/AudioPlayer';
 import Countdown from './components/Countdown';
@@ -94,7 +94,7 @@ const App: React.FC = () => {
             <section id="blessings" className="relative z-10"><Blessings /></section>
             <section id="family" className="relative z-10"><FamilySection /></section>
             <section id="venue" className="relative z-10"><Venue /></section>
-            <section id="legacy" className="relative z-10"><Legacy /></section>
+            {/* <section id="legacy" className="relative z-10"><Legacy /></section>  */}
             <section id="countdown" className="relative z-10 py-24 bg-[#F8F4EC] border-t border-[#D6CEC3]/30">
               <Countdown targetDate="2026-02-24T00:00:00" />
             </section>
