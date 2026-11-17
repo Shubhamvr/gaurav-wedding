@@ -102,7 +102,7 @@ const Venue: React.FC = () => {
             className="flex lg:hidden justify-center order-3 mt-8"
           >
             <motion.a
-              href="https://share.google/bk3Ow2gaHfKfF1T2Q"
+              href="https://share.google/AwV7gjIMScJB6GxmQ"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-6 group"
