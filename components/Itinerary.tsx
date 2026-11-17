@@ -103,7 +103,7 @@ const Itinerary: React.FC = () => {
 
           {/* Day 2 */}
           <div className="space-y-16">
-            <h3 className="font-luxury text-2xl text-center text-[#3A312A] tracking-[0.3em] uppercase opacity-40">25th February</h3>
+            <h3 className="font-luxury text-2xl text-center text-[#3A312A] tracking-[0.3em] uppercase opacity-40">11th December</h3>
             {/* <EventCard 
               date="25 FEB 2026" 
               title="Chak Bhat" 
