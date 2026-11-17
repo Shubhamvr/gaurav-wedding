@@ -7,11 +7,12 @@ const FamilySection: React.FC = () => {
     "Mr. Anil Mishra & Mrs. Laxmi Mishra"
   ];
 
-  const brotherCols = [
-    "Ragini & Shubham"
-  ];
+  // const brotherCols = [
+  //   "Ragini & Shubham"
+  // ];
 
   const littleOnes = [
+    "Ragini & Shubham",
     "Sadhvi & Vidhi"
   ];
 
@@ -44,7 +45,7 @@ const FamilySection: React.FC = () => {
         </div>
 
         {/* Brothers Section - 3 Column Layout */}
-        <div className="mb-32">
+        {/* <div className="mb-32">
           <h2 className="font-luxury text-4xl md:text-5xl mb-20 shimmer uppercase tracking-widest px-4">
             With Love from Didi & Jiju
           </h2>
@@ -58,7 +59,7 @@ const FamilySection: React.FC = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* The Little Ones Section */}
         <div className="max-w-5xl mx-auto">
