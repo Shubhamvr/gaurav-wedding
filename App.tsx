@@ -96,7 +96,7 @@ const App: React.FC = () => {
             <section id="venue" className="relative z-10"><Venue /></section>
             {/* <section id="legacy" className="relative z-10"><Legacy /></section>  */}
             <section id="countdown" className="relative z-10 py-24 bg-[#F8F4EC] border-t border-[#D6CEC3]/30">
-              <Countdown targetDate="2026-02-24T00:00:00" />
+              <Countdown targetDate="2026-12-11T00:00:00" />
             </section>
             <Footer />
           </motion.div>
