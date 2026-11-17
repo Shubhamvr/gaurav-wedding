@@ -98,6 +98,7 @@ const Itinerary: React.FC = () => {
               title="Ring Ceremony" 
               time="06:00 PM" 
               description="Tilak Ceremony followed by Sangeet & Royal Dinner."
+              venue="Vijay Intercontinental - Laurel Banquet"
             />
           </div>
 
@@ -115,6 +116,7 @@ const Itinerary: React.FC = () => {
               title="The Wedding" 
               time="07:00 PM Onwards" 
               description="Baraat Arrival & Wedding followed by Grand Reception at 9 PM."
+              venue="The Eternity - IHCL SeleQtions"
             />
           </div>
         </div>
