@@ -30,13 +30,13 @@ const Venue: React.FC = () => {
               className="space-y-6"
             >
               <h2 className="font-luxury text-4xl md:text-7xl text-[#3A312A] uppercase leading-[1.1] md:leading-[0.9] tracking-tight">
-                Corbett <br />
-                <span className="text-[#C5A46D]">Elegant Retreat</span>
+                Taj <br />
+                <span className="text-[#C5A46D]">Eternity</span>
               </h2>
               <div className="space-y-2">
-                <p className="font-accent text-base md:text-lg text-[#3A312A]/70 uppercase tracking-widest">Ramnagar, Uttarakhand</p>
+                <p className="font-accent text-base md:text-lg text-[#3A312A]/70 uppercase tracking-widest">Mandhana Road, Kanpur</p>
                 <p className="font-accent text-xs md:text-sm text-[#3A312A]/50 max-w-sm mx-auto lg:mx-0">
-                  Hanuman Dham Road, Chhoi, Madanpur Bora, Uttarakhand 244715
+                  Araji 595 & 637 Baikunthpur, Sadar, Kanpur, Uttar Pradesh 209217
                 </p>
               </div>
             </motion.div>
@@ -49,7 +49,7 @@ const Venue: React.FC = () => {
               className="hidden lg:flex justify-start"
             >
               <motion.a
-                href="https://share.google/bk3Ow2gaHfKfF1T2Q"
+                href="https://share.google/AwV7gjIMScJB6GxmQ"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ gap: "2rem" }}

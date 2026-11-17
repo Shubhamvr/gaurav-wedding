@@ -7,7 +7,7 @@ import FamilySection from './components/FamilySection';
 import CoupleHero from './components/CoupleHero';
 import Itinerary from './components/Itinerary';
 import Venue from './components/Venue';
-import Legacy from './components/Legacy';
+/*import Legacy from './components/Legacy';*/
 import Footer from './components/Footer';
 import AudioPlayer from './components/AudioPlayer';
 import Countdown from './components/Countdown';

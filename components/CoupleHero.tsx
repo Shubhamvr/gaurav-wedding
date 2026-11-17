@@ -349,13 +349,13 @@ const CoupleHero: React.FC = () => {
             transition={{ duration: 1.5 }}
             className="flex-1 space-y-6 md:space-y-10"
           >
-            <h2 className="font-names text-7xl md:text-9xl text-[#C5A46D] leading-none drop-shadow-2xl">Gaurav</h2>
+            <h2 className="font-names text-7xl md:text-9xl text-[#C5A46D] leading-none drop-shadow-2xl">Anurag</h2>
             <div className="space-y-4">
-              <p className="font-luxury text-xl md:text-3xl text-white tracking-[0.2em] font-medium uppercase">Gaurav Garg</p>
+              <p className="font-luxury text-xl md:text-3xl text-white tracking-[0.2em] font-medium uppercase">Anurag Mishra</p>
               <div className="h-[0.5px] w-16 bg-[#C5A46D]/30 mx-auto" />
               <div className="space-y-2 opacity-70">
-                <p className="font-accent text-[10px] md:text-xs italic text-white uppercase tracking-[0.25em]">Grandson of Late Shri Ram Kumar & Savitri Devi</p>
-                <p className="font-accent text-[10px] md:text-xs italic text-white uppercase tracking-[0.25em]">Son of Mr. Ashok Kumar & Mrs. Rakhi Garg</p>
+                <p className="font-accent text-[10px] md:text-xs italic text-white uppercase tracking-[0.25em]">Grandson of Late Smt. Urmila Devi Mishra & Late Shri Pradeep Narayan Mishra</p>
+                <p className="font-accent text-[10px] md:text-xs italic text-white uppercase tracking-[0.25em]">Son of Mrs. Laxmi & Mr. Anil Mishra</p>
               </div>
             </div>
           </motion.div>
@@ -379,13 +379,12 @@ const CoupleHero: React.FC = () => {
             transition={{ duration: 1.5 }}
             className="flex-1 space-y-6 md:space-y-10"
           >
-            <h2 className="font-names text-7xl md:text-9xl text-[#C5A46D] leading-none drop-shadow-2xl">Shubhi</h2>
+            <h2 className="font-names text-7xl md:text-9xl text-[#C5A46D] leading-none drop-shadow-2xl">Aparna</h2>
             <div className="space-y-4">
-              <p className="font-luxury text-xl md:text-3xl text-white tracking-[0.2em] font-medium uppercase">Shubhi Gupta</p>
+              <p className="font-luxury text-xl md:text-3xl text-white tracking-[0.2em] font-medium uppercase">Aparna Awasthi</p>
               <div className="h-[0.5px] w-16 bg-[#C5A46D]/30 mx-auto" />
               <div className="space-y-2 opacity-70">
-                <p className="font-accent text-[10px] md:text-xs italic text-white uppercase tracking-[0.25em]">Granddaughter of Shri Mathura Prasad & Kusuma Gupta</p>
-                <p className="font-accent text-[10px] md:text-xs italic text-white uppercase tracking-[0.25em]">Daughter of Mr. Sanjay & Mrs. Neeti Gupta</p>
+                <p className="font-accent text-[10px] md:text-xs italic text-white uppercase tracking-[0.25em]">Daughter of Mrs. Manju Awasthi & Late Shri Sandeep Awasthi</p>
               </div>
             </div>
           </motion.div>
@@ -401,7 +400,7 @@ const CoupleHero: React.FC = () => {
                 <div className="w-8 h-[0.5px] bg-[#C5A46D]/30 mx-auto mb-6" />
                 
                 <p className="font-luxury text-[2rem] sm:text-5xl md:text-7xl text-[#F8F4EC] tracking-[0.18em] font-light leading-none whitespace-nowrap drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
-                  25 • 02 • 2026
+                  11 • 12 • 2026
                 </p>
                 
                 <div className="w-8 h-[0.5px] bg-[#C5A46D]/30 mx-auto mt-6" />
